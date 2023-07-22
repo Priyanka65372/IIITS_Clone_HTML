@@ -1,0 +1,387 @@
+*{
+    box-sizing: border-box;
+}
+
+.foot{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("/images/videos/images/footer_background.png");
+    position: relative;
+    display: flex;
+    background-attachment: fixed;
+    background-size: 1000px;
+}
+
+.about,.location,.contact,.partners{
+    float: left;
+    width: 25%;
+    padding: 2px;
+    text-align: left;
+    position: relative;
+    flex: 1;
+}
+
+.foot{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #32383b;
+}
+
+table,tr,td{
+    border-collapse: collapse;
+}
+
+a{
+    text-decoration: none;
+    color: #DF7401;
+}
+h2{
+    text-align: left;
+    color: aliceblue;
+}
+
+.foot::after{
+    clear: both;
+}
+
+.foot img{
+    border: 4px solid #DF7401;
+}
+td{
+    color: aliceblue;
+}
+.about{
+    font-size: 16px;
+}
+.copyright{
+    font-size: 17px;
+    clear: both;
+    background-color: black;
+    padding-left: 65%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.copyright p{
+    color: #32383b;
+}
+.initiatives{
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+}
+
+.mahatma,.swachh,.ekbharat,.abhiyan,.covid,.fit{
+    float: left;
+    width: 15%;
+    padding: 1px;
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.schmes{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+}
+
+.swayam,.aishe,.nad,.swayam_prabha,.ugc,.pathshala{
+    margin-top: 3;
+    float: left;
+    width: 16%;
+    padding: 1px;
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    position: relative;
+    text-align: center;
+}
+
+h3{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+section{
+    border-top:3px solid #DF7401;
+}
+
+.portal{
+    border: 0px;
+    background-color: #069eed;
+    position: relatice;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    clear: both;
+}
+.link_stud,.events,.notification,.useful_link{
+    margin-top: 3;
+    float: left;
+    width: 23%;
+    padding: 1px;
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+}
+.portal a{
+    text-decoration: none;
+    color: aliceblue;
+    text-size-adjust: 16px;
+}
+.portal li{
+    list-style: none;
+}
+.portal li::before{
+    content: "\00BB";
+}
+.portal h2::before{
+    margin-right: 5px;
+}
+.social_links{
+    text-align: center;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+.youtube,.gallery,.facebook,.twitter{
+    float: left;
+    width: 25%;
+    padding: 2px;
+    position: relative;
+    flex: 1;
+    flex-direction: row;
+}
+
+
+.social_links i{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding: 21px 0px;
+    font-size: 30px;
+    color: #fff;
+    float: left;
+    border-radius: 100%;
+    margin: 0px 8px 0px 0px;
+    background-color: #DF7401;
+    transition:all 0.3s;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.gallery i{
+    margin: 0px 10px 0px 0px;
+}
+
+.social_links i:hover{
+    border-radius:20%;
+}
+.text{
+    text-align: center;
+    color: #32383b;
+}
+
+header{
+    border-top:5px solid #DF7401;
+    position: relative;
+    background: none repeat scroll 0 0 #fff;
+    z-index: 1000;
+    width: 100%;
+    float: left;
+}
+
+.nav-bar{
+   float: left;
+   width: 100%;
+   border-top: 1px solid #e6e6e6;
+   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+   -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 6px 0px;
+}
+
+.navigator{
+
+    padding-top: 0.5em;
+    /*  background-color: ;
+    border-radius: 2em;*/
+}
+.navigator ul{
+    overflow: auto;
+}
+.navigator li{
+    float: right;
+    list-style: none;
+    margin: 1em 1em;
+}
+.navigator li a{
+    padding: 1px 1px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #32383b;
+}
+.navigator li a:hover{
+    background-color: #DF7401;
+ }
+
+.logo{
+    float: left;
+    width: 35%;
+    padding: 1px;
+    text-align: left;
+    
+    padding-left: 5%;
+    position: relative;
+}
+.navigator{
+    float: left;
+    width: 65%;
+    padding: 1px;
+    text-align: left;
+    
+    padding-left: 5%;
+    position: relative;
+}
+.logo,.navigator{
+    float: left;;
+}
+.fa fa-facebook::before{
+    content: "\f09a";
+}
+.fa fa-twitter::before{
+    content: "\f099";
+}
+.fa fa-twitter-square::before{
+    content: "\f081";
+}
+.fa fa-youtube-play::before{
+    content: "\f16a";
+}
+.fa fa-facebook::before{
+    content: "\f09a";
+}
+.fa fa-flag::before{
+    content: "\f024";
+}
+   
+.slider{
+    clear: both;
+    margin-bottom: 50px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+    background: url("/images/videos/images/Gem_IIIT.jpg");
+}
+
+.slider{
+    animation: moveSlideshow 40s ease-in infinite;
+}
+
+@media (max-width:870px){
+    .initiatives{
+        flex-direction: column;
+        margin-left: 36%;
+    }
+    .initiatives img{
+        width: 150px;
+        height: 80px;
+    }
+    .schmes{
+        flex-direction: column;
+        padding-left: 15dvw;
+        padding-right: 20dvw;
+    }
+    .schmes img{
+        width: 350px;
+        height: 200px;
+    }
+    .foot{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+        white-space: nowrap;
+    }
+    .social_links{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+    }
+    iframe{
+        width: 93dvw;
+        height: 40dvh;
+    }
+    .portal{
+        flex-direction: column;
+        margin: 0px;
+        white-space: nowrap;
+        font-size: 18px;
+    }
+    .portal p{
+        font-size: 17px;
+        text-align: left;  
+    }
+}
+@keyframes moveSlideshow {
+    0%{
+        opacity: 1;
+        background: url("/images/videos/images/Gem_IIIT.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    12.5%{
+        opacity: 1;
+        background: url("/images/videos/images/campus_1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        opacity: 1;
+        background: url("/images/videos/images/campus_2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    37.5%{
+        opacity: 1;
+        background: url("/images/videos/images/campus_3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        opacity: 1;
+        background: url("/images/videos/images/campus_4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    62.5%{
+        opacity: 1;
+        background: url("/images/videos/images/campus_5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        opacity: 1;
+        background: url("/images/videos/images/grp_1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    87.5%{
+        opacity: 1;
+        background: url("/images/videos/images/grp_2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
